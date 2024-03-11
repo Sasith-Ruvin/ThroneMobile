@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/thronemobile/static/css/main.aa3b0561.css",
+    "main.js": "/thronemobile/static/js/main.7802e5d6.js",
+    "static/media/headerImage.png": "/thronemobile/static/media/headerImage.c48f1e8815add91538a2.png",
+    "static/media/MidComponentPhone.png": "/thronemobile/static/media/MidComponentPhone.63cca7189b55534e4b74.png",
+    "static/media/bedRoom.png": "/thronemobile/static/media/bedRoom.13ac171817536eea7e23.png",
+    "static/media/midPhone2.png": "/thronemobile/static/media/midPhone2.270854f8a4e2f7d7fc46.png",
+    "static/media/chairPurple.png": "/thronemobile/static/media/chairPurple.7723c9f632223d91e5ec.png",
+    "static/media/flow-light.png": "/thronemobile/static/media/flow-light.7ccb6444f1a10dace98f.png",
+    "static/media/gray-chair.png": "/thronemobile/static/media/gray-chair.25072c6d69bb0c6bbd01.png",
+    "static/media/wrapperBackground.svg": "/thronemobile/static/media/wrapperBackground.da4d6717b7e7adc1056b.svg",
+    "static/media/Throne.svg": "/thronemobile/static/media/Throne.e96916dfd5f88d7cd338b3a772e76f20.svg",
+    "static/media/roseChair.png": "/thronemobile/static/media/roseChair.2bd484603674d3c1fcdd.png",
+    "static/media/blueSofa.png": "/thronemobile/static/media/blueSofa.2495d747987da66a274c.png",
+    "static/media/Throne.webp": "/thronemobile/static/media/Throne.f098c8aef95c64e8b36e.webp",
+    "static/media/google-play.svg": "/thronemobile/static/media/google-play.3a82f04097175e6c06590184726273a5.svg",
+    "static/media/apple-store.svg": "/thronemobile/static/media/apple-store.43f8ca7d4a3d99453b93d51338840835.svg",
+    "index.html": "/thronemobile/index.html",
+    "static/media/star.svg": "/thronemobile/static/media/star.9969c866fa25ce0fa12704fdec91bb2f.svg",
+    "static/media/starWhite.svg": "/thronemobile/static/media/starWhite.49d28a75838379053f07e8a4f9cd1a32.svg",
+    "main.aa3b0561.css.map": "/thronemobile/static/css/main.aa3b0561.css.map",
+    "main.7802e5d6.js.map": "/thronemobile/static/js/main.7802e5d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa3b0561.css",
+    "static/js/main.7802e5d6.js"
+  ]
+}
