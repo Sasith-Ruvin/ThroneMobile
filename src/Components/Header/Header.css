@@ -1,0 +1,56 @@
+.header{
+    margin: auto;
+    padding-top: 5%;
+
+}
+.header-body{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  justify-items: center;
+  align-items: center;
+}
+.header-body-content {
+    width: 90%; 
+    padding-left: 6rem;
+}
+.header-body-content h1{
+    font-size: clamp(15px,35px,100px);
+    font-weight: medium;
+    align-self: middle;
+    letter-spacing: wide;
+    text-transform: normal;
+    line-height: normal;
+    font-family: "poppins";
+}
+
+.header-body-content h1 span{
+    font-size: clamp(15px,60px,100px);
+    font-family: "Courgette";
+    font-weight: bolder;
+}
+.header-body-content-para{
+    margin-top: 1rem; 
+}
+
+.header-body-content-para p {
+    font-family: 'poppins';
+    font-size: clamp(10px,25px,80px);
+    align-self: center;
+    width: 80%;
+
+}
+.header-body-button{
+    padding-bottom: 20px;
+}
+
+
+
+.header-body-content-right h2{
+    font-size: clamp(15px,35px,100px);
+    font-weight: medium;
+    align-self: middle;
+    letter-spacing: wide;
+    text-transform: normal;
+    line-height: normal;
+    font-family: "poppins";
+}

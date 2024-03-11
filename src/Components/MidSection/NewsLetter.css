@@ -1,0 +1,58 @@
+.news-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: center;
+    justify-items: center;
+    position: relative;
+}
+.newsletter-content{
+    bottom: 14px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #012f75bd;
+    width: 80%; 
+    border-radius: 20px;
+    transform: translateY(32px);
+    transition-duration: 700ms;
+    padding: 5%;
+}
+
+.news-text h2{
+    width: 100%;
+    font-family: "poppins";
+    font-size: clamp(15px,30px,120px);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+    align-self: center;
+    text-align: center;
+    padding-left: 8px;
+}
+
+.news-text p{
+    display: block;
+    font-family: "poppins";
+    font-size: clamp(10px,20px,80px);
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-left: 8px;
+}
+.newsletter-center{
+    display: flex;
+    justify-content: center;
+    content: center;
+    align-items: center;
+}
+.newsletter-center-content{
+    width: 16rem;
+    padding-bottom: 5.5%;
+}
+.newsletter-center-content input{
+    color: white;
+    padding-bottom: 5%;
+}
+  

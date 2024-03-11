@@ -1,0 +1,38 @@
+.chat-heading{
+    font-family: "Poppins";
+    color: rgb(68, 181, 247);
+    cursor: pointer;
+    padding-left: 2%;
+    font-size: clamp(5px,38px,60px);
+    width: 100%;
+}
+.chat-greeting{
+    font-family: "Poppins";
+    color: rgb(68, 181, 247);
+    cursor: pointer;
+    padding-left: 4%;
+    font-size: clamp(5px,12px,60px);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.chat-span{
+    font-family: "Poppins";
+    color: rgb(68, 181, 247);
+    cursor: pointer;
+    padding-left: 4%;
+    font-size: clamp(5px,15px,60px);
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+.svg-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    cursor: pointer;
+}
+.chat-input{
+    padding-top: 8%;
+    padding-left: 3%;
+}

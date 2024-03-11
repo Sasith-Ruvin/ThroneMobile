@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,800;1,800&family=Open+Sans:ital,wght@0,700;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    
+}
+
+.pushable{
+    background: hsl(200deg, 100%, 32%);
+    border-radius: 25px;
+    border: none;
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    font-family: "poppins";
+    padding: 0px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    outline-offset: 2px;
+}
+.front{
+    display: block;
+    padding: 18px 20px;
+    border-radius: 25px;
+    font-size: 1.15rem;
+    background: #3f609b;
+    color: white;
+    font-family: "poppins";
+    transform: translate(-6px)
+}
+.front2{
+    display: block;
+    padding: 18px 20px;
+    border-radius: 25px;
+    font-size: 1.15rem;
+    background: hsl(202, 99%, 38%);
+    color: white;
+    font-family: "poppins";
+    transform: translate(-6px)
+}
+
+.pushable:active .front{
+    transform: translateY(-2px);
+}
+.custom-header{
+    height: 760px; 
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    z-index: 10;
+    animation: bounce 4s linear infinite;
+}
+
+@keyframes bounce{
+    0%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+}

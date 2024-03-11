@@ -1,0 +1,46 @@
+.mid-title h3{
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: clamp(10px,45px,120px);
+    font-weight: bold;
+    -webkit-text-stroke: 1px white;
+}
+
+.mid-id{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 15;
+    
+}
+
+.mid-title{
+    width: 500px;
+    padding-bottom: 2%;
+}
+.mid-content-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.mid-text{
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-size: clamp(10px,25px,100px);
+    align-self: center;
+    -webkit-text-stroke: 0.1px white;
+    line-height: 1.5;
+}
+
+.mid-image{
+    position: absolute;
+    right: 0;
+    z-index: -10;
+}
+
+.mid-image image{
+    width: 100%;
+}

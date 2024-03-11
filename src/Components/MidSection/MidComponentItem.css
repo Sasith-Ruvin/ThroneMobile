@@ -1,0 +1,85 @@
+.midcomponentitem-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.component-content{
+    width:80%;
+    padding-left: 6rem;
+}
+
+.component-content h2{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: clamp(15px,35px,100px);
+    align-self: center;
+    padding-bottom: 1%;
+}
+
+.component-content p{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: clamp(15px,15px,80px);
+
+}
+.mid-component-image img {
+    height: 575px;
+    padding-top: 5%;
+    transition: transform 1s;
+}
+
+.mid-component-image img:hover{
+    transform: rotate(6deg);
+    cursor: pointer;
+}
+
+.midcontent-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+.midcomponentitem-container-reverse h2{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: clamp(15px,35px,100px);
+    align-self: center;
+    padding-bottom: 1%;
+}
+
+.component-items{
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+.component-items p{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: clamp(15px,15px,80px);
+}
+.items-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.reverse-content-image{
+    margin-left: 2%;
+}
+.reverse-content-image img{
+    height: 575px;
+    padding-top: 5%;
+    transition: 1s;
+    
+}
+
+.reverse-content-image img:hover{
+    cursor: pointer;
+    transform: rotate(-6deg);
+}

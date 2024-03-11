@@ -1,0 +1,61 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, auto); 
+    justify-items: center;
+    width: 100%;
+    padding-top: 5%;
+    align-items: center;
+    align-self: center;
+  }
+.inner-content{
+    width: 80%; 
+    padding-left: 24px;
+}
+.inner-content h2{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: clamp(15px,35px,100px);
+    align-self: center;
+    padding-bottom: 1%;
+}
+.inner-content p{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: clamp(10px,20px,100px);
+    align-self: center;
+    padding-bottom: 1%;
+}
+.Tab-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(189, 189, 189, 0.616);
+}
+.tab-header-content p{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: clamp(10px,20px,100px);
+    align-self: center;
+    padding-bottom: 1%;
+    color:#4969e1 ;
+}
+.tabspanel-content p{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: clamp(10px,20px,100px);
+    align-self: center;
+    padding-bottom: 1%;
+    color: black;
+   
+}
+
+.tabspanel-content span{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: clamp(10px,20px,100px);
+    align-self: center;
+    padding-bottom: 1%;
+    color:#4969e1 ;
+    cursor: pointer;
+}
+
